@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/ProfilWeb/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/theme-toggles@4.10.1/css/expand.min.css"
+    />
+    <title>profile</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <nav>
+            <div class="Navbar darker">
+              <div class="logo">
+                <h1>leo.</h1>
+              </div>
+              <div class="contButton">
+                <a href="index.html" class="navButton" id="home">Home</a>
+                <a href="about.html" class="navButton" id="about">About</a>
+                <a href="contact.html" class="navButton" id="contact"
+                  >Contact</a
+                >
+                <div class="contIcon">
+                  <a
+                    class="icon"
+                    href="https://www.facebook.com "
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a class="icon" href="https://x.com/?lang=id" target="_blank"
+                    ><i class="fa-brands fa-x-twitter"></i
+                  ></a>
+                  <a
+                    class="icon"
+                    href="https://id.linkedin.com/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="hamburger" onclick="show()">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-content darker" id="dropdown">
+                <a href="index.html" class="navButton" id="home">Home</a>
+                <a href="about.html" class="navButton" id="about">About</a>
+                <a href="contact.html" class="navButton" id="contact"
+                  >Contact</a
+                >
+                <div class="contDropIcon">
+                  <a
+                    class="dropIcon"
+                    href="https://www.facebook.com "
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="dropIcon"
+                    href="https://x.com/?lang=id"
+                    target="_blank"
+                    ><i class="fa-brands fa-x-twitter"></i
+                  ></a>
+                  <a
+                    class="dropIcon"
+                    href="https://id.linkedin.com/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </section>
+      <section>
+        <div class="about darker">
+            <h1>About Me</h1>
+        </div>
+      </section>
+      <section>
+        <div class="contName darker" id="contName">
+            <div class="Name">
+                <p><i style="font-weight: 600;">Leonardo Anderson</i>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptas provident possimus, error expedita aliquam enim, id nisi doloremque fugit repellendus nemo adipisci, atque neque ex suscipit! Officia assumenda sapiente praesentium. Natus quibusdam provident distinctio asperiores vero quisquam dolor, eius similique ullam aut earum iure temporibus corporis perferendis ipsum veritatis dolorem. Delectus accusantium adipisci, modi autem voluptates ullam nisi ducimus numquam voluptas pariatur officia, laborum nulla rerum necessitatibus aut aspernatur? Doloremque, quos laboriosam ut eligendi doloribus nihil dignissimos? Dolores similique labore enim accusantium culpa laborum vero dignissimos officia modi molestias deleniti pariatur, natus fugiat, quos esse ipsa nihil voluptatibus dolor, blanditiis iste nobis sed deserunt! Quis praesentium obcaecati, quisquam optio aspernatur provident, mollitia temporibus magni recusandae officia odit laboriosam expedita dolor, architecto est assumenda natus maiores reprehenderit soluta commodi fugiat ducimus? Molestiae eligendi accusantium aspernatur modi a quos molestias velit eius! Temporibus voluptas error repellendus ipsa quaerat cum? Obcaecati, omnis deserunt dolor sunt voluptate voluptatibus molestias magnam optio placeat atque consequatur maxime ullam error esse perferendis, eos, laudantium odio a recusandae sed voluptas excepturi. Voluptates consequuntur nemo suscipit quam eos, molestiae eligendi ut. Earum dolor architecto quaerat iure ullam distinctio eum, qui dicta, voluptatum necessitatibus inventore, in blanditiis repellat praesentium?</p>
+            </div>
+          </div>
+          <div class="arrow darker">
+            <i class="fa-solid fa-arrow-down" onclick="arrow()" id="arrow"></i>
+          </div>
+      </section>
+      <footer>
+        <div class="footer darker">
+          <div class="innerFot">
+            <h1 style="font-weight: 600;">leo.</h1>
+            <div class="contFotBtn">
+            <a href="index.html" class="fotButton" id="home">Home</a>
+            <a href="about.html" class="fotButton" id="about">About</a>
+            <a href="contact.html" class="fotButton" id="contact">Contact</a>
+            </div>
+            <div class="contFotIcon">
+                <a
+                    class="icon"
+                    href="https://www.facebook.com "
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a class="icon" href="https://x.com/?lang=id" target="_blank"
+                    ><i class="fa-brands fa-x-twitter"></i
+                  ></a>
+                  <a
+                    class="icon"
+                    href="https://id.linkedin.com/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </div>
+                <p class="copyright"> © <i id="date"></i>. All Rights Reserved.</p>
+          </div>
+          <label class="theme-toggle switch" title="Toggle theme">
+              <input type="checkbox" onclick="dark()" />
+              <span class="theme-toggle-sr">Toggle theme</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                width="1em"
+                height="1em"
+                fill="currentColor"
+                class="theme-toggle__expand"
+                viewBox="0 0 32 32"
+              >
+                <clipPath id="theme-toggle__expand__cutout">
+                  <path d="M0-11h25a1 1 0 0017 13v30H0Z" />
+                </clipPath>
+                <g clip-path="url(#theme-toggle__expand__cutout)">
+                  <circle cx="16" cy="16" r="8.4" />
+                  <path
+                    d="M18.3 3.2c0 1.3-1 2.3-2.3 2.3s-2.3-1-2.3-2.3S14.7.9 16 .9s2.3 1 2.3 2.3zm-4.6 25.6c0-1.3 1-2.3 2.3-2.3s2.3 1 2.3 2.3-1 2.3-2.3 2.3-2.3-1-2.3-2.3zm15.1-10.5c-1.3 0-2.3-1-2.3-2.3s1-2.3 2.3-2.3 2.3 1 2.3 2.3-1 2.3-2.3 2.3zM3.2 13.7c1.3 0 2.3 1 2.3 2.3s-1 2.3-2.3 2.3S.9 17.3.9 16s1-2.3 2.3-2.3zm5.8-7C9 7.9 7.9 9 6.7 9S4.4 8 4.4 6.7s1-2.3 2.3-2.3S9 5.4 9 6.7zm16.3 21c-1.3 0-2.3-1-2.3-2.3s1-2.3 2.3-2.3 2.3 1 2.3 2.3-1 2.3-2.3 2.3zm2.4-21c0 1.3-1 2.3-2.3 2.3S23 7.9 23 6.7s1-2.3 2.3-2.3 2.4 1 2.4 2.3zM6.7 23C8 23 9 24 9 25.3s-1 2.3-2.3 2.3-2.3-1-2.3-2.3 1-2.3 2.3-2.3z"
+                  />
+                </g>
+              </svg>
+            </label>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="/ProfilWeb/js/logic.js"></script>
+</html>
